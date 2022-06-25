@@ -10,18 +10,27 @@ Two matrices are considered symmetrical if rows or columns (or both) can be swap
 
 For example, the following matrices are equivalent because the rows or columns can be swapped:
 
-[ 0 1 ]    [ 0 2 ]
-[ 2 0 ]    [ 1 0 ]
+[ 0 1 ]<br/> 
+[ 2 0 ]<br/>
+
+[ 0 2 ]<br/>
+[ 1 0 ]<br/>
 
 But the following matrices are not equivalent:
 
-[ 0 1 ]    [ 1 2 ]
-[ 2 0 ]    [ 0 0 ]
+[ 0 1 ]<br/>
+[ 2 0 ]<br/>
+
+[ 1 2 ]<br/>
+[ 0 0 ]<br/>
+
 
 A matrix of size 2 x 2, where each entry can be s where 0 <= s < 2, there are 7 unique matrix configurations:
 
-[0 0] [1 0] [1 1] [1 1] [1 1] [1 0] [1 0]
+[0 0] [1 0] [1 1] [1 1] [1 1] [1 0] [1 0]<br/>
 [0 0] [0 0] [0 0] [1 0] [1 1] [0 1] [1 0] 
+
+
 
 So the function solution(2, 2, 2) will return "7".
 
