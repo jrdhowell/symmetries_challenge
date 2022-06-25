@@ -27,8 +27,8 @@ But the following matrices are not equivalent:
 
 A matrix of size 2 x 2, where each entry can be s where 0 <= s < 2, there are 7 unique matrix configurations:
 
-[0 0]  [1 0]   [1 1]   [1 1]   [1 1]   [1 0]   [1 0]<br/>
-[0 0]  [0 0]   [0 0]   [1 0]   [1 1]   [0 1]   [1 0] 
+[0 0] <space><space>  [1 0] <space><space>  [1 1] <space><space>  [1 1] <space><space>  [1 1] <space><space>  [1 0] <space><space>  [1 0]<br/>
+[0 0] <space><space>  [0 0] <space><space>  [0 0] <space><space>  [1 0] <space><space>  [1 1] <space><space>  [0 1] <space><space>  [1 0] 
 
 
 
